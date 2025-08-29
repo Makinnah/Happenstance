@@ -76,8 +76,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'happenstance_db',
-        'USER': 'makinnah_user',
-        'PASSWORD': 'Password2025#!',
+        'USER': 'osuka.duncan',
+        'PASSWORD': 'Password2025',
         'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {
