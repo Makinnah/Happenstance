@@ -128,3 +128,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+import sys
+import os
+
+# Add external_apps to Python path
+sys.path.append(os.path.join(BASE_DIR, 'external_apps'))
+
+INSTALLED_APPS = [
+    ...
+    'bookstore',
+]
