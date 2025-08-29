@@ -14,6 +14,11 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+import os
+import sys
+
+# Add external_apps to Python path
+sys.path.append(os.path.join(BASE_DIR, 'external_apps'))
 
 
 # Quick-start development settings - unsuitable for production
